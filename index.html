@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./portfolio.js" defer></script>
+    <link rel="stylesheet" href="./stylesheet.css">
+    <title>trust portfolio</title>
+</head>
+<body>
+    
+    <div class="container navbar">
+        <header>
+            <div class="igo">
+                <h1>Trust</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#about">about me</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#work">my work</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="container main-info-section">
+        <div class="text">
+            <h1>
+                <span>H</span> 
+                <span class="m-left">i</span>
+                <span class="m-left">,</span>  
+                <br>
+                <span>I</span>
+                <span class="m-left">'</span>
+                <span class="m-left">m</span>
+                <span class="name">T</span>
+                <span class="m-left name">r</span>
+                <span class="m-left name">u</span>
+                <span class="m-left name">s</span>
+                <span class="m-left name">t</span>
+                <span class="m-left">,</span>
+                <br>
+                <span>W</span>
+                <span class="m-left">e</span>
+                <span class="m-left">b</span>
+                <span>D</span>
+                <span class="m-left">e</span>
+                <span class="m-left">s</span>
+                <span class="m-left">i</span>
+                <span class="m-left">g</span>
+                <span class="m-left">n</span>
+                <span class="m-left">e</span>
+                <span class="m-left">r</span>
+                <span class="m-left">.</span>
+            </h1>
+            <p>CSS/ Javascript / React</p>
+            <a href="#contact">contact me</a>
+        </div>
+        <div class="profile-image">
+            <img src="./my-profile-image-2.jpg" alt="">
+            <!-- <img src="my-profile-image.jpg" alt=""> -->
+            <!-- <img src="old-sojar.png" alt=""> -->
+        </div>
+    </div>
+
+
+    <div class="container about" id="about">
+        <h1>About</h1>
+        <div class="about-me-info">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea expedita voluptatum iusto deserunt velit assumenda saepe distinctio quas tempora? Amet est sed eos.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea expedita voluptatum iusto deserunt velit assumenda saepe distinctio quas tempora? Amet est sed eos.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea expedita voluptatum iusto deserunt velit assumenda saepe distinctio quas tempora? Amet est sed eos.</p>
+        </div>
+        <img src="./img_sailboat.jpg" alt="">
+    </div>
+
+    <div class="container skills" id="skills">
+        <h1>Skills</h1>
+        <p class="skills-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta distinctio commodi ut blanditiis tempore nemo sequi omnis ad iure quae? Voluptas modi nisi alias labore atque cum, ratione cumque quas amet architecto tempora debitis assumenda porro dicta saepe, magni aspernatur.</p>
+        <div class="html">
+            <div class="tag-html">
+                <p>HTML</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-html"></div>
+            </div>
+        </div>
+
+        <div class="html">
+            <div class="tag-css">
+                <p>HTML</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-css"></div>
+            </div>
+        </div>
+
+        <div class="html">
+            <div class="tag-javascript">
+                <p>HTML</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-javascript"></div>
+            </div>
+        </div>
+
+        <div class="html">
+            <div class="tag-react">
+                <p>HTML</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-react"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container work" id="work">
+        <h1>Work</h1>
+        <div class="work-category">
+            <button id="designing" class="active" onclick="showRequiredCategory(this)">Web Designing</button>
+            <button id="animation"onclick="showRequiredCategory(this)">Web Animation</button>
+            <button id="project" onclick="showRequiredCategory(this)">React Project</button>
+        </div>
+        <div class="category-designing showCategory">
+            <a href=""><img src="./1st-stuff.jpg" alt=""></a>
+            <a href=""><img src="2nd-stuff.png" alt=""></a>
+            <a href=""><img src="3rd=stuff.jpg" alt=""></a>
+            <a href=""><img src="farmers-brain.jpg" alt=""></a>
+            <a href=""><img src="4th-sturf.png" alt=""></a>
+        </div>
+        <div class="category-animation hideCategory">
+            <a href=""><img src="peace&happiness.jpg" alt=""></a>
+            <a href=""><img src="old-sojar.png" alt=""></a>
+            <a href=""><img src="nigeria-situation.png" alt=""></a>
+        </div>
+        <div class="category-project hideCategory">
+            <a href=""><img src="do-not-miss-it.png" alt=""></a>
+            <a href=""><img src="new_year-new_blessing.png" alt=""></a>
+            <a href=""><img src="sound.jpg" alt=""></a>
+            <a href=""><img src="img_car.jpg" alt=""></a>
+        </div>
+    </div>
+
+    <div class="container contact" id="contact">
+        <h1>Contact</h1>
+        <form>
+            <input type="text" name="name" placeholder="Full Name">
+            <input type="email" placeholder="Email">
+            <input type="email" placeholder="PortfolioPersoneemail@example.com" disabled>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <footer>
+        <hr>
+        <p>2019 Cpyright. All Right Reserve</p>
+    </footer>
+
+</body>
+</html>
